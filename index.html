@@ -13,8 +13,66 @@
             <h1>Polyakova Olga</h1>
             <p>Russia, Saratov</p>
             <img src="my_photo.png" alt="my photo">
+            <nav>
+                <ul>
+                    <li><a href="">Contacts</a></li>
+                    <li><a href="">About me</a></li>
+                    <li><a href="">Skills</a></li>
+                    <li><a href="">Code example</a></li>
+                    <li><a href="">Education</a></li>
+                    <li><a href="">Other skills</a></li>
+                </ul>
+            </nav>
         </header>
-        <main></main>
+        <main>
+            <section>
+                <h2>Contacts</h2>
+                <ul>
+                    <li>E-mail: polyakowa.o2011@yandex.ru</li>
+                    <li>Discord: Candigru#1247</li>
+                </ul>    
+            </section>
+            <section>
+                <h2>About me</h2>
+                <p>Programming is my hobby. I am going to make it my future profession.  
+                    I want to become a web developer.</p>    
+            </section>
+            <section>
+                <h2>Skills</h2>
+                <ul>
+                    <li>HTML Basics</li>
+                    <li>CSS Basics</li>
+                    <li>Javascript Basics</li>
+                    <li>SQL Basics</li>
+                </ul>    
+            </section>
+            <section>
+                <h2>Code example</h2>
+                <pre>
+                    const pick = (obj, ...fields) => {
+                        const clone ={};
+                     
+                         for (let [key, value] of Object.entries(obj) ) {
+                            
+                             if ( fields.includes(key) ) {
+                                clone[ key ] = value;
+                             }     
+                         }
+                     
+                         return clone;    
+                     };
+                    
+                </pre>    
+            </section>
+            <section>
+                <h2>Education</h2>
+                <p>Saratov Chernyshevsky State University the Biological Faculty (1999-2004).</p>    
+            </section>
+            <section>
+                <h2>Other skills</h2>
+                <p>Basic knowledge of English</p>    
+            </section>
+        </main>
  <footer></footer>
 
     </div>
