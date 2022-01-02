@@ -1,9 +1,58 @@
 .container-base {
-    background-color: rgb(92, 92, 97);
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-    text-align: center;
+  background-color: rgb(204, 190, 190);
+  display: flex;
+  flex-direction: column;
+  text-align: left;
 }
 
+header {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  background-color: rgb(39, 38, 38);
+  color: blanchedalmond;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+section {
+  align-self: center;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  padding: 8px;
+}
+
+#code {
+  color: rgb(56, 55, 53);
+}
+
+a {
+  color: cornsilk;
+}
+
+a:visited {
+  color: rgb(230, 217, 217);
+}
+
+a:active {
+  color: rgb(126, 133, 133);
+}
+
+#mail {
+  list-style-image: url(assets/img/evolution-mail.png);
+}
+
+#discord {
+  list-style-image: url(assets/img/icons8-discord-24.png);
+}
+h2 {
+    text-align: center;
+}
