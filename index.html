@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>cv</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <div class="container-base">
+      <header>
+        <div id="common">
+          <h1>Polyakova Olga</h1>
+          <p>Russia, Saratov</p>
+          <img src="assets/img/my_photo.png" alt="my photo" />
+        </div>
+        <nav>
+          <ul>
+            <li><a href="">Contacts</a></li>
+            <li><a href="">About me</a></li>
+            <li><a href="">Skills</a></li>
+            <li><a href="">Code example</a></li>
+            <li><a href="">Education</a></li>
+            <li><a href="">Other skills</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <section>
+          <h2>Contacts</h2>
+          <ul>
+            <li id="mail">polyakowa.o2011@yandex.ru</li>
+            <li id="discord">Candigru#1247</li>
+          </ul>
+        </section>
+        <section>
+          <h2>About me</h2>
+          <p>
+            Programming is my hobby. <br />
+            I am going to make it my future profession. <br />
+            I want to become a web developer.
+          </p>
+        </section>
+        <section>
+          <h2>Skills</h2>
+          <ul>
+            <li>HTML Basics</li>
+            <li>CSS Basics</li>
+            <li>Javascript Basics</li>
+            <li>SQL Basics</li>
+          </ul>
+        </section>
+        <section>
+          <h2>Code example</h2>
+          <div id="code">
+            <pre>
+                        const pick = (obj, ...fields) => {
+                            const clone ={};
+                         
+                             for (let [key, value] of Object.entries(obj) ) {
+                                
+                                 if ( fields.includes(key) ) {
+                                    clone[ key ] = value;
+                                 }     
+                             }
+                         
+                             return clone;    
+                         }
+                    </pre
+            >
+          </div>
+        </section>
+        <section>
+          <h2>Projects</h2>
+          курс stage0 в RSScool:
+          <b><a href="https://polyakowa-olga.github.io/rsschool-cv/">CV</a></b>
+        </section>
+        <section>
+          <h2>Education</h2>
+          <p>
+            Saratov Chernyshevsky State University the Biological Faculty
+            (1999-2004).
+          </p>
+        </section>
+        <section>
+          <h2>Other skills</h2>
+          <p>Basic knowledge of English</p>
+        </section>
+      </main>
+      <footer>
+        <a href="https://github.com/polyakowa-olga"
+          ><img src="assets/img/github_original_wordmark_logo_icon_146506.png" alt="github_logo"
+        /></a>
+        <p>© 2022</p>
+        <a href="https://rs.school/js/"
+          ><img src="assets/svg/rs_school_js.svg" width="100" alt="rs_school_logo"
+        /></a>
+      </footer>
+    </div>
+  </body>
+</html>
