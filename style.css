@@ -56,3 +56,11 @@ a:active {
 h2 {
     text-align: center;
 }
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+    background-color: cornsilk;
+}
