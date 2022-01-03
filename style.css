@@ -12,18 +12,20 @@ body {
   line-height: 1.3;
 }
 .container-base {
-  width: 100;
+  width: 100%;
   margin: 0 auto;
   background-color: rgb(204, 190, 190);
   display: flex;
   flex-direction: column;
   text-align: left;
+  overflow: hidden;
 }
 
 header {
   display: flex;
-  justify-content: center;
+  flex-wrap: wrap;
   align-items: flex-end;
+  justify-content: center;
   background-color: rgb(39, 38, 38);
   color: blanchedalmond;
 }
@@ -82,3 +84,8 @@ footer {
     padding: 30px;
     background-color: cornsilk;
 }
+
+pre {
+  white-space: pre-wrap;
+}
+
