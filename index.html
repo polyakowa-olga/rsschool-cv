@@ -55,20 +55,19 @@
           <h2>Code example</h2>
           <div id="code">
             <pre>
-                        const pick = (obj, ...fields) => {
-                            const clone ={};
-                         
-                             for (let [key, value] of Object.entries(obj) ) {
-                                
-                                 if ( fields.includes(key) ) {
-                                    clone[ key ] = value;
-                                 }     
-                             }
-                         
-                             return clone;    
-                         }
-                    </pre
-            >
+ const pick = (obj, ...fields) => {
+  const clone ={};
+
+  for (let [key, value] of Object.entries(obj) ) {
+
+    if ( fields.includes(key) ) {
+      clone[ key ] = value;
+    }     
+  }
+
+    return clone;    
+}
+                    </pre>
           </div>
         </section>
         <section>
