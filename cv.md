@@ -39,7 +39,7 @@ const pick = (obj, ...fields) => {
 ```
 
 #### Education
-Saratov Chernyshevsky State University the Biological Faculty (1999-2004).
+Saratov Chernyshevsky State University the Biological Faculty
 
 #### Other skills
 * Basic knowledge of English
